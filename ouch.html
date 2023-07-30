@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="23423.jpg"/>
+    <title>Esh</title>
+
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto&family=Rubik:ital@1&display=swap');
+        *{
+
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+            font: 1.5rem 'Roboto', sans-serif;
+        }
+        img{
+            display: block;
+            max-width: 100%;
+            height: auto;
+        }
+
+        .card img{
+            width: 100%;
+            height: auto;
+            max-width: 500px;
+        }
+        
+        body{
+            font: 1.5rem 'Roboto', sans-serif;
+            min-height: 100vh;
+            color: #ffff;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+            background-color: #475596;
+            background-image: linear-gradient(to right, #F4C2C2, #F9E2E2);   
+            display: flex;
+            flex-direction: column;
+        }
+        main{
+            flex-grow: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 1.5rem;
+            padding: 1rem;
+        }
+
+        .card{
+            width: min(100%, 240px);
+            background-color: rgba(0, 0, 0, 0.587);
+            border: 2px solid black;
+            border-radius: 15px;
+            box-shadow:
+    0 4px 8px 0 rgba(0, 0, 0, 0.261), 
+    0 6px 20px 0 rgba(0, 0, 0, 0.19),
+    0 10px 15px -3px rgba(0, 0, 0, 0.3);
+            padding: 1rem;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .card figure{ 
+            display: flex;
+            flex-flow: column nowrap;
+        }
+
+        .card figcaption{
+            font-weight: bolder;
+            font-size: 1.5rem;
+            margin: 1rem;
+            text-align: center;
+        }
+        .card img{
+            border: 2px double black;
+            border-radius: 50%;
+        }
+    </style>
+
+</head>
+<body>
+    <main>
+        <article id="profile1" class="card">
+          <figure>
+            <img src="23423.jpg" alt="Jasper Rosellon" width="500" height="500">
+            <figcaption>Hello</figcaption>
+          </figure>
+          <p><q><i>You are the cream to my black coffee.</i></q></p>
+        </article>
+    </main>
+</body>
+</html>
